@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /tmp
+mkdir my_first_directory
+cd my_first_directory
+touch REAADME.md
+echo 'My first directory' > README.md
