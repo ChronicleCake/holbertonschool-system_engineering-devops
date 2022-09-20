@@ -5,11 +5,11 @@ while ((i<21))
 do
  echo $"$i"
  case "$i" in
-	 4) echo 'bad luck in China'
+	 4) echo 'bad luck from China'
 		 ;;
-	 8) echo 'good luck in China'
+	 8) echo 'good luck from China'
 		 ;;
-	 17) echo 'bad luck in Italy'
+	 17) echo 'bad luck from Italy'
  esac
  ((i++))
 done
