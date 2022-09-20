@@ -2,7 +2,6 @@
 # FizzBuzz
 for ((i=1; i<=100; i++))
  do
-	 echo $"$i"
    if ((i%15==0))
    then
     echo "FizzBuzz"
@@ -11,6 +10,8 @@ for ((i=1; i<=100; i++))
     echo "Buzz"
    elif ((i%3==0))
    then
-    echo "Fizz"
+    echo "Fizz" 
+else
+    echo $"$i"
    fi
  done
